@@ -1,4 +1,6 @@
 import { add } from "../main";
+import { Todo } from "../models/Todo";
+import { addTodo } from "../todos";
 
 describe("My awesome tests", () => {
   test("is should add correctly", () => {
